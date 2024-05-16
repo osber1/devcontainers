@@ -1,0 +1,16 @@
+{
+  "name": "Node.js & TypeScript",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+  "forwardPorts": [
+    3000
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  },
+  "postCreateCommand": "yarn install"
+}
